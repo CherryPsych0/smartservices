@@ -1,0 +1,218 @@
+/* Fonts */
+body {
+   font-family: 'Lato', sans-serif; 
+}
+h2 {
+    font-size: 34px;
+    line-height: 42.09px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.medium-text {
+    font-size: 18px;
+    line-height: 22px;
+}
+.small-text {
+    font-size: 14px;
+    line-height: 17px;
+}
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1445px;
+    height: 100%;
+    max-height: 4759px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+
+}
+/* header */
+.header {
+    width: 940.6px;
+    height: 87.96px;
+    background-color: #FFFFFF;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 32.99px 0 31.92px 0;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+}
+.nav-item {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+/* Home */
+.main-part {
+    width: 940.6px;
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 18px;
+    line-height: 21.83px;
+}
+.main-name {
+    font-size: 47.34px;
+    line-height: 58.61px;
+}
+.main-btn {
+    transform: rotate(-90deg);
+    border: 0px;
+    padding-top: 68px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+            
+.main-photo {
+    width: 940.6px;
+    height: 387px;
+    margin-top: 49.67px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* About Me */
+.about {
+    background-color: #F6F6F6;
+    width: 940.6px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-bio {
+    display: flex;
+    flex-direction: column;
+    width: 800.34px;
+    height: 220px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.about-text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* Skills */
+.skills {
+    width: 940.6px;
+    height: 620px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: -190px;
+    text-align: center;
+}
+.skills-notice {
+    margin-top: 30px;
+}
+.skills-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 50px;
+}
+.list-item a {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    text-decoration: none;
+}
+/* Portfolio */
+.portfolio {
+    width: 940.6px;
+    
+    background-color: #F6F6F6;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio h2 {
+    margin-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+.protfolio-list {
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+    
+}
+.portlofio-item {
+    text-align: center;
+}
+.portfolio-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21.83px;
+    color: #070707;
+}
+.portfolio-image {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+/* Contacts */
+.contacts {
+    width: 940.6px;
+    height: 500px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.contacts-notice {
+    font-size: 18px;
+    line-height: 21.83px;
+    margin-top :40px;
+}
+.contacts-btn {
+    margin-top :40px;
+    width: 180.5px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 21.83px;
+    background-color: #070707;
+    border-radius: 18px;
+}
+.contacts-btn-text {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacts-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top :80px;
+    
+}
+.contacts-end-notice {
+    margin-top: 40px;
+}
